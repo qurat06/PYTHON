@@ -4,5 +4,7 @@ if char .isdigit():
     print("the input is a digit")
 elif char .isupper():
     print("the input is a upper case")
-else:
+elif char .islower():
     print("the input is a lower case")
+else:
+    print("the input is a special character")
